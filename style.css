@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+	background-color:rgba(0,0,0,0.50);
+	width: 100%;
+	height: 700px;
+}
+.nav-link{
+	font-weight: bold;
+	font-size: 28px;
+	font-family: 'Indie Flower', cursive;
+}
+.header-nav-logo{
+	animation-name:logoxoay;
+	animation-duration: 3s;
+}
+@keyframes logoxoay{
+	from{
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+.noidungbanner h1{
+	font-size: 50px;
+	color: white;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.noidungbanner h3{
+	color:rgba(127,127,127,1.00);
+	font-size: 35px;
+	-webkit-text-stroke: 1.5pt rgba(237,201,82,1.00);
+	font-family:  Comic Sans MS, Comic Sans, cursive;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.noidungbanner{
+	margin-left: 80px;
+	margin-top: 180px;
+}
+.hinhbanner{
+	margin-top: -30px;
+}
+.aboutme{
+	height: 420px;
+	background-color:rgba(237,201,82,1.00);
+}
+.noidungaboutme{
+	margin-top: 60px;
+}
+.noidungaboutme h1{
+	color: rgba(237,201,82,1.00);
+	-webkit-text-stroke: 0.5pt white;
+	font-size: 80px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-align:center;
+}
+.noidungaboutme p {
+	color:rgba(127,127,127,1.00);
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 17px;
+}
+.designer{
+	position: absolute;
+}
+.pts{
+	position:absolute;
+	bottom: 250px;
+	left: 180px;
+	animation: app 2s linear infinite;
+}
+.ai{
+	position:absolute;
+	bottom:300px;
+	left: 320px;
+	animation: app 2s linear infinite;
+}
+@keyframes app{
+	from{
+		transform: rotate(0);
+	}
+	to{
+		transform:rotate(30deg);
+	}
+}
+.skills{
+	height: 750px;
+	background-color: rgba(237,201,82,1.00);
+}
+.mahskills h1{
+	color: rgba(237,201,82,1.00);
+	-webkit-text-stroke: 1pt white;
+	font-family: 'Indie Flower', cursive;
+	position: absolute;
+	font-size: 110px;
+	margin-left: 295px;
+	margin-top: 130px;
+	font-weight: bold;
+	
+}
+.hinhskills{
+	position: absolute;
+	margin-left: 150px;
+	
+}
+.aiskill{
+	position: absolute;
+	left: 280px;
+	top: 280px;
+	animation: appskill 10s linear infinite;
+}
+.ptsskill{
+	position: absolute;
+	left: 520px;
+	top: 280px;
+	animation: appskill 10s linear infinite;
+}
+.idskill{
+	position:absolute;
+	left: 760px;
+	top: 280px;
+	animation: appskill 10s linear infinite;
+}
+@keyframes appskill{
+	from{
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg)
+	}
+}
+.portfolio{
+	height:1100px;
+	background-color: rgba(237,201,82,1.00);
+}
+.titleporfolio h1{
+	color: rgba(237,201,82,1.00);
+	-webkit-text-stroke: 1pt white;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+	font-size: 80px;
+	margin-top: 80px;
+	text-align: center;
+}
+.noidungportfolio{
+	margin-top: 60px;
+}
+.poster h1{
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-weight:bold;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 50px;
+}
+.hinhposter{
+	margin-left: 20px;
+}
+.others h1{
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-weight:bold;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+}
+.hinhothers{
+	margin-left: 60px;
+}
+.contactme{
+	height: 400px;
+	background-color: rgba(237,201,82,1.00);
+}
+.titlecontact{
+	color: rgba(237,201,82,1.00);
+	-webkit-text-stroke: 1pt white;
+	font-size: 80px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+p1{
+	color:rgba(127,127,127,1.00);
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+
+}
+p2{
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+.call{
+	margin-top: 50px;
+}
+.hinhcall{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+p3{
+	color:rgba(127,127,127,1.00);
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	margin-left:10px;
+	font-size: 20px;
+}
+.email{
+/*	margin-top: 30px;*/
+}
+.hinhmail{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.bangthongtin {
+	margin-top: 70px;
+}
+.bangthongtin button{
+	margin-left: 405px;
+	margin-top:10px;
+}
+.bangthongtin label {
+	color:rgba(127,127,127,1.00);
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+footer{
+	width:100%;
+	height:90px;
+	background-color:rgba(0,0,0,0.50);
+	text-align: center;
+}
+p4{
+	color:white;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size:20px;
+	line-height: 90px;
+}
+/*/mobile 678/*/
+@media (max-width:375px){
+	.banner{
+		clear: both;
+		flex-direction: column;
+		display: block;
+		margin-top: 70px;
+	}
+	.noidungbanner h1{
+		font-size: 24px;
+		margin-top: -170px;
+		margin-left:-50px;
+	}
+	.noidungbanner h3{
+		font-size: 20px;
+		margin-left: -50px;
+	}
+/*	banner*/
+	.noidungaboutme h1{
+		font-size:60px;
+	}
+	.noidungaboutme p{
+		font-size: 13px;
+	}
+	.ai{
+		display: none;
+	}
+	.pts{
+		display:none;
+	}
+/**	/aboutme*/
+	.skills{
+		height: 3000px;
+	    background-color: rgba(237,201,82,1.00);
+	}
+	.hinhskills{
+		padding-top: 200px;
+		margin: 0 auto;
+		margin-left: -15px;
+	}
+	.mahskills h1{
+		font-size: 30px;
+		margin-left: 100px;
+		margin-top: 250px;
+	}
+	.aiskill{
+		margin:0 auto;
+		margin-left: -230px;
+		margin-top: 20px;
+		width: 50px;
+	}
+	.ptsskill{
+		margin:0 auto;
+		margin-left: -360px;
+		margin-top: 20px;
+		width: 50px;
+	}
+	.idskill{
+		margin:0 auto;
+		margin-left: -490px;
+		margin-top: 20px;
+		width: 50px;
+	}
+/*	/skill/*/
+	.portfolio{
+		margin-top: -2450px;
+	}
+	.titleportfolio h1{
+		font-size: 30px;
+	}
+	.noidungportfolio h1 {
+		font-size: 30px;
+	}
+	.others h1{
+		font-size: 23px;
+		margin-right: 15px;
+	}
+	.hinhothers{
+	width: 300px;
+	margin-left: -30px;
+}
+	.others{
+		margin-top:-60px;
+	}
+	.contactme{
+		height: 1500px;
+	    background-color: rgba(237,201,82,1.00);
+	}
+	.titlecontact{
+		margin-top: 800px;
+		font-size: 50px;
+	}
+	.hinhmail p3{
+		font-size: 16px;
+	}
+	.hinhcall p3{
+		font-size: 16px;
+	}
+	.bangthongtin label{
+		font-size: 12px;
+	}
+	.bangthongtin button{
+		margin-left: 215px
+	}
+	.textcontact{
+		margin-top: 300px;
+	}
+	.bangthongtin{
+		margin-top: -530px;
+	}
+}
+
